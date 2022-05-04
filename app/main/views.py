@@ -22,7 +22,7 @@ def news_healines(source):
     """
     This function retrieves live top and breaking headlines for a country.
     """
-    title = "Giko"
+    title = "TALANTA NEWS"
     news_healines = get_all_news_headlines(source)
     return render_template('news_articles.html', headlines = news_healines)
 
